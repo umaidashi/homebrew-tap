@@ -5,20 +5,20 @@
 class GoRssReader < Formula
   desc ""
   homepage ""
-  version "0.0.2"
+  version "0.0.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/umaidashi/go-rss-reader/releases/download/v0.0.2/go-rss-reader_0.0.2_darwin_amd64.tar.gz"
-      sha256 "0f364a337b04725dbe4746f08c5a12adece1070d46c46bead68f0dcc9f88486b"
+      url "https://github.com/umaidashi/go-rss-reader/releases/download/v0.0.3/go-rss-reader_0.0.3_darwin_amd64.tar.gz"
+      sha256 "829a60c4bef1805bbc6cef76ef848b651bf706b49ca68f4b2e93a47eb800c703"
 
       def install
         bin.install "go-rss-reader"
       end
     end
     on_arm do
-      url "https://github.com/umaidashi/go-rss-reader/releases/download/v0.0.2/go-rss-reader_0.0.2_darwin_arm64.tar.gz"
-      sha256 "ca748d6a025523b86e4925c713f8bd561a8fbaf63a5f3685b659d4eee84607a3"
+      url "https://github.com/umaidashi/go-rss-reader/releases/download/v0.0.3/go-rss-reader_0.0.3_darwin_arm64.tar.gz"
+      sha256 "88f1cc32be40ab05d529c001f204d0be684b676b5dee358a0175fe4ff0c7a976"
 
       def install
         bin.install "go-rss-reader"
@@ -29,8 +29,8 @@ class GoRssReader < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/umaidashi/go-rss-reader/releases/download/v0.0.2/go-rss-reader_0.0.2_linux_amd64.tar.gz"
-        sha256 "d4b116cfeac10f583e26de5bcc4c39ce599deb0f5b0778edb538f0c27262084a"
+        url "https://github.com/umaidashi/go-rss-reader/releases/download/v0.0.3/go-rss-reader_0.0.3_linux_amd64.tar.gz"
+        sha256 "e4c59124fa6784e85cb0bd0986b7e0d076e69303bef3689499f091bd97bcf1fc"
 
         def install
           bin.install "go-rss-reader"
@@ -39,8 +39,8 @@ class GoRssReader < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/umaidashi/go-rss-reader/releases/download/v0.0.2/go-rss-reader_0.0.2_linux_arm64.tar.gz"
-        sha256 "44a7b4c89f36f7d47e910f7e8cd6398af7a28dab2c36300f947d2db5473b2fbd"
+        url "https://github.com/umaidashi/go-rss-reader/releases/download/v0.0.3/go-rss-reader_0.0.3_linux_arm64.tar.gz"
+        sha256 "3667d1013155d14f552376c25b2721256d085ef16bdb1c52ebe65cd0cd9526e9"
 
         def install
           bin.install "go-rss-reader"
